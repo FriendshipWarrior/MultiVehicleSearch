@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lots.multivehiclesearch.service.VehicleLotSearchServiceTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-05-21T06:22:42.587Z" hostname="CVWR2CYMG9-DHurst" time="0.315">
+  <properties/>
+  <testcase name="search - returns set of 2 results()" classname="com.lots.multivehiclesearch.service.VehicleLotSearchServiceTest" time="0.315">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;[lot1, lot2]&gt; but was: &lt;[lot2]&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;[lot1, lot2]&gt; but was: &lt;[lot2]&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at app//com.lots.multivehiclesearch.service.VehicleLotSearchServiceTest.search - returns set of 2 results(VehicleLotSearchServiceTest.kt:48)
+	at java.base@17.0.14/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base@17.0.14/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@17.0.14/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
