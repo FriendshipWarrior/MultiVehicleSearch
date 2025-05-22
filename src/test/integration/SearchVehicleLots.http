@@ -5,6 +5,14 @@ Content-Type: application/json
 [
   {
     "length": 10,
+    "quantity": 3
+  },
+  {
+    "length": 20,
+    "quantity": 2
+  },
+  {
+    "length": 30,
     "quantity": 1
   }
 ]
